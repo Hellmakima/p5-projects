@@ -17,7 +17,7 @@ class P {
 
   update() {
     this.vel.add(this.acc);
-    this.vel.add(0, 0.1);
+    this.vel.add(0, 0.005);//gravity
     this.pos.add(this.vel);
     this.acc.mult(0);
   }
